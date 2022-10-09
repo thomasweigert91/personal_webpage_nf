@@ -176,7 +176,7 @@ nav ul li a:hover {
 }
 .social a:hover {
   transform: scale(1.2);
-  background-color: blueviolet;
+  background-color:var(--secondary);
   transition: 0.4s;
 }
 .container .hero-text button {
@@ -194,7 +194,7 @@ nav ul li a:hover {
 .container .hero-text button:hover {
   transform: scale(1.1);
   transition: 0.4s;
-  background: teal;
+  background:var(--secondary);
 }
 img {
   max-width: 300px;
