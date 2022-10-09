@@ -3,6 +3,9 @@
   --headings: #ff895d;
   --secondary: #007cb9;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 h1 {
   letter-spacing: 2px;
