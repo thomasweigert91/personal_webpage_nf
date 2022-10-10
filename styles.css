@@ -21,7 +21,7 @@ h2 {
   margin-bottom: 30px;
   text-shadow: 0px 0px 8px black;
 }
-h3 { 
+h3 {
   color: var(--text);
   font-size: 1.5rem;
 }
@@ -80,6 +80,7 @@ nav {
   padding-top: 45px;
   padding-left: 10%;
   padding-right: 10%;
+  color: #007cb9;
 }
 span {
   color: var(--headings);
@@ -95,30 +96,23 @@ nav ul li {
   display: inline-block;
   padding: 10px 25px;
   font-size: 1.2rem;
+  transition: transform 0.4s;
 }
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-right: 10px;
+  transition: 0.4s;
+  transform: scale(1.2);
 }
 nav ul li a:hover {
   color: var(--secondary);
   transition: 0.4s;
-}
-.btn {
-  background-color: transparent;
-  color: var(--text)
-  text-decoration: none;
-  border: 2px solid white;
-  padding: 10px 25px;
-  border-radius: 30px;
-  transition: transform 0.4s;
-}
-.btn:hover {
   transform: scale(1.2);
 }
+
 .home {
   display: flex;
   width: 100%;
@@ -179,7 +173,7 @@ nav ul li a:hover {
 }
 .social a:hover {
   transform: scale(1.2);
-  background-color:var(--secondary);
+  background-color: var(--secondary);
   transition: 0.4s;
 }
 .container .hero-text button {
@@ -197,7 +191,7 @@ nav ul li a:hover {
 .container .hero-text button:hover {
   transform: scale(1.1);
   transition: 0.4s;
-  background:var(--secondary);
+  background: var(--secondary);
 }
 img {
   max-width: 300px;
@@ -222,6 +216,7 @@ img {
   display: block;
 }
 .aboutme h1 {
+  font-size: 2rem;
 }
 .jobs {
   display: block;
